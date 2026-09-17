@@ -28,17 +28,21 @@ while x == 0:
 
     if awns == s and gennum == r:
         os.system("clear")
-        print("you lose scissors x rock") 
+        print("you lose scissors x rock")
+        print(score)
     if awns == p and gennum == s:
         os.system("clear")
         print("you lose paper x scissors")
+        print(score)
     if awns == r and gennum == p:
         os.system("clear")
         print("you lose rock x paper")
+        print(score)
     
     if awns == gennum:
         os.system("clear")
         print("tie")
+        print(score) 
    
 
 
